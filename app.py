@@ -21,7 +21,7 @@ def banner_image():
 
     # Construct the image URL from Free Fire (you need a real image source here)
     # This is just a placeholder
-    banner_url = f"https://aditya-banner-v3op.onrender.com/banner-image?uid={uid}&region={region}"
+    banner_url = f"https://aditya-banner-v6op.onrender.com/banner-image?uid={uid}&region={region}"
 
     try:
         response = requests.get(banner_url)
