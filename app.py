@@ -20,8 +20,8 @@ def fetch_player_info(uid, region):
 
 def fetch_images(banner_id, avatar_id):
     try:
-        banner_url = f"https://uditanshu-ffitems.vercel.app/item-image?id={banner_id}&key=UDITxTECH"
-        avatar_url = f"https://uditanshu-ffitems.vercel.app/item-image?id={avatar_id}&key=UDITxTECH"
+        banner_url = f"https://www.dl.cdn.freefireofficial.com/icons/{banner_id}.png"
+        avatar_url = f"https://www.dl.cdn.freefireofficial.com/icons/{avatar_id}.png"
 
         banner_response = requests.get(banner_url, timeout=TIMEOUT)
         avatar_response = requests.get(avatar_url, timeout=TIMEOUT)
